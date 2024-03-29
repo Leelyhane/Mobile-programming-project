@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">MyTaskManagementApp</string>
+    <string name="titleTextView" translatable="false">Title</string>
+    <string name="taskNameEditText" translatable="false">TaskName</string>
+    <string name="startDateEditText" translatable="false">StartDate</string>
+    <string name="endDateEditText" translatable="false">EndDate</string>
+    <string name="saveButton" translatable="false">AddButton</string>
+</resources>
