@@ -5,4 +5,5 @@
     <string name="startDateEditText" translatable="false">StartDate</string>
     <string name="endDateEditText" translatable="false">EndDate</string>
     <string name="saveButton" translatable="false">AddButton</string>
+    <string name="addButton" translatable="false">AddTaskButton</string>
 </resources>

@@ -1,23 +1,20 @@
 package com.example.mytaskmanagementapp
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.content.Intent
-import android.widget.Button
-import android.widget.ImageButton
+import android.os.Bundle
+import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
 
-class HomePage : AppCompatActivity() {
+class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home_page)
 
-        // Find the button in the layout
-        val addButton: ImageButton = findViewById(R.id.addButton)
+        val addTaskButton: ImageView = findViewById(R.id.addButton)
+        addTaskButton.setOnClickListener {
+            val intent = Intent(this, AddTaskActivity::class.java)
 
-        // Set click listener for the button
-        addButton.setOnClickListener {
-            // Launch the AddTaskActivity when the button is clicked
-            startActivity(Intent(this, AddTask::class.java))
+            startActivity(intent)
         }
     }
 }
