@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DoApp</string>
+    <string name="task_manager">Task Manager</string>
+    <string name ="Enter_task_name">Enter task name</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="save">Save</string>
+    <string name="completed">Completed</string>
+    <string name="add_subtask">Add Subtask</string>
+</resources>
