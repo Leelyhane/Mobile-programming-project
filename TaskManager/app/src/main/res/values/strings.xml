@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+    <string name="add_new_task">New Task</string>
+    <string name="next">Continue</string>
+    <string name="details_section">Details</string>
+    <string name="start_date">Start Date :</string>
+    <string name="task_name">Task Name</string>
+    <string name="enter_task_name_here">Enter task name here</string>
+    <string name="sub_tasks">Sub Tasks</string>
+    <string name="attachments_files">Attachments Files</string>
+    <string name="reminder_timelines">Reminder Timelines</string>
+    <string name="starting_date">Starting Date</string>
+    <string name="end_date">End Date :</string>
+    <string name="ending_date">Ending Date</string>
+    <string name="timeline_in_hours">Timeline in hours</string>
+    <string name="priority">Priority :</string>
+    <string name="select_priority">Select Priority</string>
+    <string name="description">Description</string>
+    <string name="enter_description">Enter description...</string>
+    <string name="add_file">+</string>
+    <string name="hours">Hours</string>
+    <string name="days">Days</string>
+    <string name="timeline_in_days">Timeline in days</string>
+
+    <string-array name="sub_tasks">
+        <item>Prepare documentation</item>
+        <item>Test functionality</item>
+        <item>Review code</item>
+        <item>Attend meeting</item>
+        <item>Submit report</item>
+        <item>Update UI</item>
+        <item>Fix bugs</item>
+        <item>Implement feature</item>
+        <item>Discuss requirements</item>
+        <item>Refactor code</item>
+    </string-array>
+    <string-array name="priorities">
+        <item>High</item>
+        <item>Lower</item>
+        <item>Intermediate</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="set_timeline_in_days">set timeline in Days</string>
+    <string name="no_subtasks_yet">No Subtasks Yet!</string>
+    <string name="add_file_upload">Add file..</string>
+    <string name="set_timeline_in_hours">set timeline in hours</string>
+    <string name="create_button">Create</string>
+    <string name="upload_file">upload file</string>
+    <string name="completed">Completed Tasks</string>
+    <string name="finished_on">Finished On :</string>
+    <string name="priority_category">Priority Category</string>
+    <string name="actions">⋮</string>
+    <string name="back">Back</string>
+    <string name="todo">Alarm Bell Notifier</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="complete">Complete</string>
+    <string name="add_task">TODO</string>
+    <string name="welcome">Welcome</string>
+    <string name="task_manager_logo">task_manager_logo</string>
+    <string name="enter_username">Enter Username...</string>
+    <string name="field_1">Field 1</string>
+    <string name="field_2">Field 2</string>
+</resources>

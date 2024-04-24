@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "930116532558",
+    "firebase_url": "https://taskmanager-e817a-default-rtdb.firebaseio.com",
+    "project_id": "taskmanager-e817a",
+    "storage_bucket": "taskmanager-e817a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930116532558:android:73a0a72c359b75f178861f",
+        "android_client_info": {
+          "package_name": "com.example.taskmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDckkSc0Y8U58-ANUn5jVI0iF1hM93VK0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

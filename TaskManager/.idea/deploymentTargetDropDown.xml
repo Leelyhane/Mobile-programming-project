@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="CreateNewTaskMainActivity">
+        <State />
+      </entry>
+      <entry key="CreateNewTaskMainActivity (1)">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="SERIAL_NUMBER" />
+                  <value value="07841372CQ002007" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-04-03T13:31:50.894682100Z" />
+        </State>
+      </entry>
+      <entry key="AddSubTaskDialog">
+        <State />
+      </entry>
+      <entry key="CreateNewTaskMainActivity">
+        <State />
+      </entry>
+      <entry key="DashBoard">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="$USER_HOME$/.android/avd/Pixel_3a_API_34_extension_level_7_x86_64.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-04-04T08:56:56.317440359Z" />
+        </State>
+      </entry>
+      <entry key="MainActivity">
+        <State />
+      </entry>
+      <entry key="MainActivity (1)">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

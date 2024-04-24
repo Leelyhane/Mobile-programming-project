@@ -1,0 +1,59 @@
+<!-- subtask_dialog_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/editTextSubtaskName"
+        android:layout_width="250dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="50dp"
+        android:hint="Subtask Name"/>
+
+    <EditText
+        android:id="@+id/editTextStartDate"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Start Date"/>
+
+    <EditText
+        android:id="@+id/editTextEndDate"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="End Date"/>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Description"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonAddSubtask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="890dp"
+            android:backgroundTint="@color/orange"
+            android:text="Add Subtask"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
