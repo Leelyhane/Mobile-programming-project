@@ -1,6 +1,8 @@
 package com.example.doapp
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -24,5 +26,64 @@ class TaskDetails : AppCompatActivity() {
         taskNameTextView.text = "Task Name: $taskName"
         startDateTextView.text = "Start Date: $startDate"
         endDateTextView.text = "End Date: $endDate"
-    }
+
+           }
 }
+
+//package com.example.doapp
+//
+//import android.app.Activity
+//import android.content.Intent
+//import android.net.Uri
+//import android.os.Bundle
+//import android.widget.Button
+//import android.widget.TextView
+//import androidx.appcompat.app.AppCompatActivity
+//
+//class TaskDetails : AppCompatActivity() {
+//
+//    private val PICK_FILE_REQUEST_CODE = 123 // Define your request code
+//
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContentView(R.layout.task_details)
+//
+//        val taskName = intent.getStringExtra("taskName")
+//        val startDate = intent.getStringExtra("startDate")
+//        val endDate = intent.getStringExtra("endDate")
+//
+//        // Display task information in the layout
+//        val taskNameTextView: TextView = findViewById(R.id.taskNameTextView)
+//        val startDateTextView: TextView = findViewById(R.id.startDateTextView)
+//        val endDateTextView: TextView = findViewById(R.id.endDateTextView)
+//
+//        taskNameTextView.text = "Task Name: $taskName"
+//        startDateTextView.text = "Start Date: $startDate"
+//        endDateTextView.text = "End Date: $endDate"
+//
+//        val attachFileButton = findViewById<Button>(R.id.attachFile)
+//
+//        attachFileButton.setOnClickListener {
+//            // Create an intent to open the file picker
+//            val pickFileIntent = Intent(Intent.ACTION_GET_CONTENT)
+//            pickFileIntent.type = "*/*"
+//            startActivityForResult(pickFileIntent, PICK_FILE_REQUEST_CODE)
+//        }
+//    }
+//
+//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+//        super.onActivityResult(requestCode, resultCode, data)
+//
+//        if (requestCode == PICK_FILE_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
+//            // Check if data is not null and that it contains a URI
+//            val selectedFileUri: Uri? = data?.data
+//            if (selectedFileUri != null) {
+//                // you can work with the selected file URI
+//                //display the file name or handle the file
+//                val fileNameTextView: TextView = findViewById(R.id.fileNameTextView)
+//                fileNameTextView.text = "Selected File: ${selectedFileUri.path}"
+//            }
+//        }
+//    }
+//}
+
