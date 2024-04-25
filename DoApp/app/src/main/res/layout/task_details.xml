@@ -6,7 +6,6 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-
     <TextView
         android:id="@+id/taskNameTextView"
         android:layout_width="match_parent"
@@ -45,6 +44,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"/>
 
+    <TextView
+        android:id="@+id/subtasklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="SubTasks"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="4dp"/>
 
     <Button
         android:id="@+id/addSubtaskButton"
@@ -56,6 +64,7 @@
         android:backgroundTint="@color/blue"
         android:layout_marginTop="16dp"/>
 
+<<<<<<< HEAD
     <Button
         android:id="@+id/attachFile"
         android:layout_width="match_parent"
@@ -65,4 +74,13 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/blue"
         android:layout_marginTop="16dp" />
+=======
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="0"
+        android:max="100" />
+>>>>>>> 5626de4f92d5bda0ef973c4fdabafa64c1949396
 </LinearLayout>
