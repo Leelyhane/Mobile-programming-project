@@ -1,9 +1,5 @@
 package com.example.doapp
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5626de4f92d5bda0ef973c4fdabafa64c1949396
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -30,18 +26,16 @@ class TaskDetails : AppCompatActivity() {
         startDateTextView.text = "Start Date: $startDate"
         endDateTextView.text = "End Date: $endDate"
 
-<<<<<<< HEAD
-           }
-=======
-        // Button to navigate to AddSubtaskActivity
+
+            // Button to navigate to AddSubtaskActivity
         val addSubtaskButton: Button = findViewById(R.id.addSubtaskButton)
         addSubtaskButton.setOnClickListener {
             val intent = Intent(this@TaskDetails, AddSubtaskActivity::class.java)
             startActivity(intent)
         }
     }
->>>>>>> 5626de4f92d5bda0ef973c4fdabafa64c1949396
 }
+
 
 //package com.example.doapp
 //

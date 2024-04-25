@@ -7,9 +7,9 @@
     <string name="save">Save</string>
     <string name="completed">Completed</string>
     <string name="add_subtask">Add Subtask</string>
-<<<<<<< HEAD
+<!--<<<<<<< HEAD-->
     <string name="attach_file">Attach File</string>
-=======
+<!--=======-->
     <string name="enter_sub_task_name">Enter_SubTaskName</string>
->>>>>>> 5626de4f92d5bda0ef973c4fdabafa64c1949396
+<!--&gt;>>>>>> 5626de4f92d5bda0ef973c4fdabafa64c1949396-->
 </resources>

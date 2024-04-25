@@ -64,7 +64,7 @@
         android:backgroundTint="@color/blue"
         android:layout_marginTop="16dp"/>
 
-<<<<<<< HEAD
+<!--<<<<<<< HEAD-->
     <Button
         android:id="@+id/attachFile"
         android:layout_width="match_parent"
@@ -74,7 +74,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/blue"
         android:layout_marginTop="16dp" />
-=======
+<!--=======-->
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="match_parent"
@@ -82,5 +82,5 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:progress="0"
         android:max="100" />
->>>>>>> 5626de4f92d5bda0ef973c4fdabafa64c1949396
+<!--&gt;>>>>>> 5626de4f92d5bda0ef973c4fdabafa64c1949396-->
 </LinearLayout>
